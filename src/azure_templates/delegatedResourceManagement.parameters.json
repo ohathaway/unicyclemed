@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Unicycle Med IT"
+        },
+        "mspOfferDescription": {
+            "value": "Turnkey IT Managment for Medical Clinics"
+        },
+        "managedByTenantId": {
+            "value": "bce23ee0-eab2-49b9-9396-b361cc309367"
+        },
+        "authorizations": {
+            "value": [
+                {
+                  "principalId": "e4a688d8-99ca-4a8e-a900-c46d8de2e45f",
+                  "principalIdDisplayName": "Unicycle Engineering",
+                  "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                  "principalId": "e4a688d8-99ca-4a8e-a900-c46d8de2e45f",
+                  "principalIdDisplayName": "Unicycle Engineering",
+                  "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                  "delegatedRoleDefinitionIds": [
+                      "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                  ]
+                },
+                {
+                  "principalId": "e5702037-1d37-46c3-92e4-94e06460126d",
+                  "principalIdDisplayName": "Unicycle Security Administrators",
+                  "roleDefinitionId": "fb1c8493-542b-48eb-b624-b4c8fea62acd"
+                },
+                {
+                  "principalId": "4270f2d0-7d02-4e41-bc81-94fdbb562319",
+                  "principalIdDisplayName": "Unicycle Tier 1 Support",
+                  "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                },
+                {
+                  "principalId": "4270f2d0-7d02-4e41-bc81-94fdbb562319",
+                  "principalIdDisplayName": "Unicycle Tier 1 Support",
+                  "roleDefinitionId": "d3881f73-407a-4167-8283-e981cbba0404"
+                },
+                {
+                  "principalId": "4270f2d0-7d02-4e41-bc81-94fdbb562319",
+                  "principalIdDisplayName": "Unicycle Tier 1 Support",
+                  "roleDefinitionId": "5fb5aef8-1081-4b8e-bb16-9d5d0385bab5"
+                }
+            ]
+        }
+    }
+}
