@@ -4,8 +4,8 @@ This is a start to collecting PowerShell scripts and Azure templates for Unicycl
 
 
 
-##References
+## References
 
-*[Onboard Customers](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer)
+* [Onboard Customers](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer)
 
-*[Serverless docs](https://serverless.com/framework/docs/providers/azure/guide/intro/) for more information.
+* [Serverless docs](https://serverless.com/framework/docs/providers/azure/guide/intro/) for more information.
