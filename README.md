@@ -2,6 +2,7 @@
 
 This is a start to collecting PowerShell scripts and Azure templates for Unicycle to use through Azure Lighthouse.
 
+By using the Serverless Framework, these tools can be managed DevOps-style through the git repo and Azure cloud resources.
 
 
 ## References
