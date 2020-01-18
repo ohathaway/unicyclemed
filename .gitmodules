@@ -1,0 +1,3 @@
+[submodule "vendor/Azure-Lighthouse-samples"]
+	path = vendor/Azure-Lighthouse-samples
+	url = https://github.com/Azure/Azure-Lighthouse-samples.git
